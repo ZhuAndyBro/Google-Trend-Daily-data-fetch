@@ -90,4 +90,4 @@ def get_daily_data(word,start_year,start_mon,stop_year,stop_mon,geo,verbose,wait
     print(complete)
     return complete
    
-get_daily_data(word,start_year,start_mon,stop_year,stop_mon,geo,verbose,wait_time)
+get_daily_data(word,start_year,start_mon,stop_year,stop_mon,geo,verbose,wait_time).to_excel(r'file path')
